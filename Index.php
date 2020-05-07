@@ -1,6 +1,7 @@
 <?php
 
 require_once 'Config.php';
+require_once 'libs/Time.php';
 require_once 'libs/Core.php';
 
 $page = ROOT::NVLA($_GET, 'page', 'chat');

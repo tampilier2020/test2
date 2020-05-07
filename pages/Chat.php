@@ -12,18 +12,18 @@
 <body class="area">
     <h1 align="center">Chat</h1>
     <div align="center">
-        Name: <input type="text" />
+        Name: <input type="text" id="login" maxlength="50" />
     </div>
     <div align="center">
-        <input type="button" value="Start" />
-        <input type="button" value="Stop" />
+        <input type="button" value="Start" onclick="CHAT.continueTimer();" />
+        <input type="button" value="Stop" onclick="CHAT.stopTimer();" />
     </div>
 
-    <div align="center">
+    <div align="left">
         <ul id="list"></ul>
     </div>
     <div align="center">
-        <input type="text" id="text" /> <input type="button" value="Send" />
+        <input type="text" id="text" maxlength="5000" /> <input type="button" value="Send" onclick="CHAT.sendMessage();" />
     </div>
 </body>
 </html>

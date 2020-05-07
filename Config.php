@@ -8,6 +8,7 @@ class ROOT
     public static $password = 'qwerty';
     public static $dbName = 'test1';
     public static $table_prefix = '';
+    public static $dbDriver = '/drivers/Mysqli.php';
 
     public static $client_path = 'http://localhost/test/';
     public static $alt_path = 'test/';
